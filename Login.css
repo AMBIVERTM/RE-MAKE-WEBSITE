@@ -47,7 +47,13 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(99, 99, 99);
+    color: rgb(179, 182, 183);
+}
+
+.btn-login{
+    background: linear-gradient(45deg,#D35400,#F39C12);
+    border-radius: 20px;
+    color: white;
 }
 
 body{
