@@ -48,11 +48,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(99, 99, 99);
+    color: rgb(179, 182, 183);
 }
 .btn-login{
     background: linear-gradient(45deg,#D35400,#F39C12);
-    border-radius: 20px;
+    border-radius: 50px;
     color: white;
 }
 body{
@@ -152,16 +152,15 @@ aside .skill h2{
 }
 
 .section1 .head h1{
-    color: black;
+    color: rgb(28, 40, 51);;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 40px;
-    color: white;
     font-size: 30px;
     letter-spacing: 8px;
 }
 
 .section1 .head h3{
-    color: rgb(28, 40, 51);
+    color: rgb(135, 54, 0);
     margin-top: 30px;
     font-size: 25px;
     letter-spacing: 5px;
