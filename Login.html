@@ -20,44 +20,29 @@
               <li><a href="portfolio.html">PORTFOLIO</a></li>
               <li><a href="Gallery.html">GALLERY</a></li>
               <li><a href="contact.html">CONTACTS</a></li>
-              <li><a href="#" class="btn-login">LOG-IN</a></li>
+              <li><a href="Login.html" class="btn-login">LOG-IN</a></li>
           </ul>
         </nav>
     </header>
-    <div class="container">
-        <form id="form" class="form">
-            <h2></h2>
-              <div class="form-control">
-                 <label for="fullname">Fullname</label>
-                  <input type="text" name="" id="fullname" placeholder="Enter your fullname">
-                  <small>error message</small>  
-              </div>
-              <div class="form-control">
-                 <label for="email">Email</label>
-                  <input type="text" name="" id="email" placeholder="Enter your Email">
-                  <small>error message</small>  
-              </div>
-              <div class="form-control">
-                 <label for="subject">Subject</label>
-                  <input type="text" name="" id="subject" placeholder="Enter your Subject">
-                  <small>error message</small>  
-              </div>
-              <div class="form-control">
-                 <label for="message">Message</label>
-                  <input type="text" name="" id="message" placeholder="Enter your Message">
-                  <small>error message</small>  
-              </div>
-              <div class="form-control">
-                 <label for="phonenumber">Phonenumber</label>
-                  <input type="number" name="" id="phonenumber" placeholder="Enter your Phone number">
-                  <small>error message</small>  
-              </div>
-              <button type="submit">Submit</button>
-        </form>
-    </div>
-  <script src="script.js"></script>
-   
-
+    <form action="Login.html" class="card">
+       <div class="sign-in">Sign in</div>
+         <i class="fas fa-user-circle"></i>
+       
+       <div class="login-form">
+        <i class="fas fa-user" id="logo-input"></i>
+        <input type="text" class="input" id="username"> 
+        <span data-placeholder="Username"></span>
+       </div>  
+       
+       <div class="login-form">
+        <i class="fas fa-lock" id="logo-input"></i>
+        <input type="password" class="input" id="password"> 
+        <span data-placeholder="Password"></span>
+       </div>  
+       
+       <p>Don'n have account? <a href="#">Sign up</a> </p>
+       <input type="submit" class="btn-submit" value="login">
+    </form>
 
 </body>
 </html>
