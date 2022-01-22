@@ -72,7 +72,7 @@ body{
     height: 500px;
     float: left;
     margin: 20px 5px;
-    padding: 50px 50px;
+    padding: 50px 30px;
     margin-left: 90px;
     border-radius: 10px;
     border: 1px solid;
@@ -121,7 +121,8 @@ footer{
 }
 
  p{
-   padding: 20px 18px;
+   padding: 20px 10px;
+   width: 250px;
    font-family: 'Nunito', sans-serif;
  }
 
@@ -129,7 +130,7 @@ footer{
      border-radius: 50%;
      width: 250px;
      justify-content: center;
-     margin-left: -12%;
+     margin-left: -2%;
  }
 
  .name{

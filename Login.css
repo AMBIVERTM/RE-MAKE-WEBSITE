@@ -11,6 +11,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background: rgb(208, 211, 212);
 }
 
 .btn-hamburger{
@@ -24,7 +25,7 @@ nav{
 
 h2{
     padding-left: 100px;
-    color: rgb(243, 156, 18);
+    color: rgb(211, 84, 0);
 }
 
 nav ul{
@@ -49,111 +50,120 @@ nav ul li a:hover{
     color: rgb(179, 182, 183);
 }
 .btn-login{
-    background: linear-gradient(45deg,#D35400,#F39C12);
+    background: linear-gradient(45deg,#D35400,#E67E22);
     border-radius: 50px;
     color: white;
 }
 body{
-    background: rgb(208, 211, 212);
+    background-image:linear-gradient(125deg,#F5B041,#DC7633);
 }
 
-.bg2{
-   background-image: linear-gradient(45deg,#5D6D7E,#99A3A4);
-   height: 640px;
-   margin-top: -17px;
-}
-
-.container{
-    background-image: linear-gradient(45deg,#DC7633,#F8C471);
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 2);
-    width: 400px;
-    padding: 35px 30px;
-    margin: 30px 0px;
+.admin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
     align-items: center;
-    justify-items: center;
-    font-family: 'Rubik', sans-serif;;
-    margin-left: 38%;
 }
-
-.form h2{
-    text-align: center;
-    color: rgb(23, 32, 42);
-    padding: 10px 0;
-    padding-bottom: 20px;
-}
-
-.form-control{
-   position: relative;
-   margin-bottom: 10px;
-   padding-bottom: 15px;
-}
-
-.form-control label{
-   color: rgb(28, 40, 51);
-   display: block;
-   margin-bottom: 10px;
-   font-weight: bold;
-
-}
-
-.form-control input{
-   border: 2px solid #f0f0f0;
-   border-radius: 4px;
-   display: block;
-   width: 100%;
-   padding: 10px;
-   font-size: 15px;
-}
-
-.form-control input:focus{
-   outline: 0px;
-   border-color: #777;
-}
-.form-control.error input{
-   border-color: red;
-}
-.form-control.success input{
-   border-color: green;
-}
-
-.form-control small{
-   color: red;
-   position: absolute;
-   left: 0;
-   visibility: hidden;
-   padding-top: 1px;
-}
-
-.form-control.error small{
-   visibility: visible;
-}
-
-.form button{
-   cursor: pointer;
-   background-color: rgb(244, 246, 247);
-   color: rgb(20, 19, 19);
-   border: solid 2px rgb(23, 32, 42);
-   margin-top: 10px; 
-   display: block;
-   padding: 5px 10px;
-   border-radius: 4px;
-}
-
-.social{
-    margin-top: -30%;
-    padding-left: 210px;
+.card{
     position: relative;
-    font-size: 18px;
-}
-hr{
-    width: 220px;
-    
+    height: 580px;
+    width: 360px;
+    background-image:linear-gradient(90deg,#BDC3C7,#7B7D7D);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h5{
-    padding-bottom: 25px;
-    padding-left: 20px;
-    font-size: 24px;
-    color: rgb(211, 84, 0);
+.sign-in{
+    position: absolute;
+    top: -40px;
+    left: 55px;
+    height: 80px;
+    width: 250px;
+    background: black;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo{
+    font-size: 7rem;
+    color: #333;
+    margin-bottom: 40px;
+    transition:.5s;
+}
+.login-form{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login-form span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #bdc3c7;
+    transition: .5s;
+    opacity: .5;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#logo-input{
+    margin: 0 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    border-right: 2px solid #bdc3c7;
+    color: #bdc3c7; 
+}
+.input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+    color: #E67E22;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #D35400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.text{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-submit{
+    margin: 20px 0;
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg,#F1C40F,#E67E22,#F1C40F);
+    background-size: 200%;
+    font-size: 1.5rem;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-submit :hover{
+    background-position: right;
 }
