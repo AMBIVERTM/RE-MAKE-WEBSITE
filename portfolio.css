@@ -85,7 +85,7 @@ aside img{
 }
 
 aside .contact h2{
-    margin-top: 30px;
+    margin-top: 40px;
     width: 180px;
     background: rgb(202, 111, 30);
     padding-left: 20px;
@@ -97,16 +97,25 @@ aside .contact h2{
 }
 
 .aside-frame .contact .text{
-    padding-top: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
 .aside-frame .educate .text{
-    padding-top: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.fa-dot-circle{
+    font-size: 12px;
 }
 .aside-frame .skill .text{
-    padding-top: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
 aside .educate h2{
-    margin-top: 100px;
+    margin-top: 30px;
     width: 180px;
     background: rgb(202, 111, 30);
     padding-left: 20px;
@@ -117,7 +126,7 @@ aside .educate h2{
     text-transform: uppercase;
 }
 aside .skill h2{
-    margin-top: 100px;
+    margin-top: 30px;
     width: 150px;
     background: rgb(202, 111, 30);
     padding-left: 28px;
