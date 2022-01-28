@@ -57,46 +57,123 @@ nav ul li a:hover{
 body{
     background: rgb(208, 211, 212);
 }
+
+section{
+  margin-top: -80px;
+  height: 100vh;
+  width: 100%;
+  padding: 0px 0;
+  background-image: linear-gradient(45deg,#F39C12,#F4D03F,#F39C12);
+}
 /* Slider1 */
 .slider1 {
-    width: 450px;
-    height: 300px;
-    background-color: yellow;
-    margin-left: 50px;
-    margin-top: 100px;
+    width: 400px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 120px;
     text-align: center;
     overflow: hidden;
     border-radius: 20px;
-    flex-direction: column;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
+  }
+
+  .head1{
+    margin-top: 30px;
+    margin-left: 255px;
+    color: rgb(28, 40, 51);
+    
+  }
+  .head2{
+    margin-top: 30px;
+    margin-left: 740px;
+    color: rgb(28, 40, 51);
+  }
+  .head3{
+    margin-top: 30px;
+    margin-left: 1150px;
+    color: rgb(28, 40, 51);
+  }
+
+  .head4{
+    margin-top: 30px;
+    margin-left: 280px;
+    color: rgb(28, 40, 51);
+    
+  }
+  .head5{
+    margin-top: 30px;
+    margin-left: 740px;
+    color: rgb(28, 40, 51);
+  }
+  .head6{
+    margin-top: 30px;
+    margin-left: 1200px;
+    color: rgb(28, 40, 51);
   }
 
   /* Slider2 */
 .slider2 {
-    width: 450px;
-    height: 300px;
-    background-color: yellow;
-    margin-left: 550px;
-    margin-top: -300px;
+    width: 400px;
+    height: 250px;
+    margin-left: 575px;
+    margin-top: -297px;
     text-align: center;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
   }
 
    /* Slider3 */
 .slider3 {
-    width: 450px;
-    height: 300px;
-    background-color: yellow;
-    margin-left: 1050px;
+    width: 400px;
+    height: 250px;
+    margin-left: 1030px;
     margin-top: -300px;
     text-align: center;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
   }
+
+/* Slider4 */
+.slider4 {
+  width: 400px;
+  height: 250px;
+  margin-left: 120px;
+  margin-top: 60px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(0,0,0,0.5);
+}
+
+ /* Slider5 */
+ .slider5 {
+  width: 400px;
+  height: 250px;
+  margin-left: 575px;
+  margin-top: -297px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(0,0,0,0.5);
+}
+
+ /* Slider6 */
+.slider6 {
+  width: 400px;
+  height: 250px;
+  margin-left: 1030px;
+  margin-top: -300px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(0,0,0,0.5);
+}
+
 
   .image-container {
     width: 1500px;
-    background-color: pink;
     height: 300px;
     clear: both;
     position: relative;
@@ -134,7 +211,7 @@ body{
     left: -1000px;
   }
 
-   /* Slider img 1 */
+   /* Slider img 3 */
    #slide-7:target ~ .image-container {
     left: 0px;
   }
@@ -144,14 +221,47 @@ body{
   #slide-9:target ~ .image-container {
     left: -1000px;
   }
+
+  /* Slider img 4 */
+  #slide-10:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-10:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-11:target ~ .image-container {
+    left: -1000px;
+  }
+
+  /* Slider img 5 */
+  #slide-12:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-13:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-14:target ~ .image-container {
+    left: -1000px;
+  }
+
+  /* Slider img 6 */
+  #slide-15:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-16:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-17:target ~ .image-container {
+    left: -1000px;
+  }
   .buttons {
     position: relative;
-    top: -20px;
+    top: -80px;
   }
   .buttons a {
     display: inline-block;
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background-color: lightgreen;
+    background-color: rgb(243, 156, 18);
   }
