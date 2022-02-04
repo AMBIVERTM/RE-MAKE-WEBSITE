@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav{
@@ -100,11 +101,13 @@ aside .contact h2{
     padding-top: 20px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-size: 15px;
 }
 .aside-frame .educate .text{
     padding-top: 20px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-size: 15px;
 }
 .fa-dot-circle{
     font-size: 12px;
@@ -113,6 +116,7 @@ aside .contact h2{
     padding-top: 20px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-size: 15px;
 }
 aside .educate h2{
     margin-top: 30px;

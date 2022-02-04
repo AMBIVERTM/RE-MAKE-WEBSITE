@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav{
@@ -59,10 +60,10 @@ body{
 }
 
 section{
-  margin-top: -80px;
+  padding-top: 5px;
   height: 120vh;
   width: 100%;
-  padding: 0px 0;
+  
   background-image: linear-gradient(45deg,#F39C12,#F4D03F,#F39C12);
 }
 /* Slider1 */
@@ -187,6 +188,7 @@ section{
     margin: 0px;
     padding: 0px;
     position: relative;
+    
   }
 
   /* Slider img 1 */
