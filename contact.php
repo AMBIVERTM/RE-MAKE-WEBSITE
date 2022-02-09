@@ -1,15 +1,30 @@
 <?php
+$fname = $email = $subj = $msg = $nb = "";
 
-$name = $_POST['fname'];
-$useremail = $_POST['email'];
-$subject = $_POST['subj'];
-$message = $_POST['msg'];
-$phonenumber = $_POST['nb'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $fname = test_input($_POST["fname"]);
+  $email = test_input($_POST["email"]);
+  $subject = test_input($_POST["subject"]);
+  $message = test_input($_POST["message"]);
+  $phonenumber = test_input($_POST["phonenumber"]);
+}
 
-echo "Your name is :".$name;
-echo "Your email is :".$useremail;
-echo "Subject is :".$subject;
-echo "message :".$message;
-echo "Your phone number is :".$phonenumber;
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
 
+
+echo "<h2>Your Input:</h2>";
+echo $fname;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $subject;
+echo "<br>";
+echo $message;
+echo "<br>";
+echo $phonenumber;
 ?>

@@ -132,14 +132,15 @@ body{
 
 .form button{
    cursor: pointer;
-   background-color: rgb(244, 246, 247);
+   background-color: rgb(213, 216, 220);
    color: rgb(20, 19, 19);
    border: solid 2px rgb(23, 32, 42);
    margin-top: 10px; 
    display: block;
-   padding: 5px 10px;
-   border-radius: 4px;
-}
+   padding: 10px;
+   width: 100%;
+   border-radius: 5px;
+}    
 
 .social{
     margin-top: -30%;
