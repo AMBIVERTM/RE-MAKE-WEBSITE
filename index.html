@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-make</title>
+    <link rel="stylesheet" href="Re-make.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="btn-hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+          <h2>Fardaws</h2>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="portfolio.html">PORTFOLIO</a></li>
+              <li><a href="Gallery.html">GALLERY</a></li>
+              <li><a href="contact.html">CONTACTS</a></li>
+              <li><a href="Login.html" class="btn-login">LOG-IN</a></li>
+          </ul>
+        </nav>
+    </header>
+ <section>
+    <div id="container">
+        <div class="col2"> 
+            <img src="ตัวเอง.jpg" alt="picture">
+            <h1 class="name">Farhan Umudee</h1>
+         </div>
+        <div> 
+      <div class="col1"> 
+         <h1>Hello I'm</h1>
+         <h3>Farhan Umudee</h3>
+         <h4>Specialization in Game</h4>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Esse nesciunt, pariatur impedit et harum unde tempora! Sit commodi, consectetur impedit minus, quod ea consequatur cum dolores, nesciunt porro rem veritatis?</p>
+      </div>
+    <div> 
+ </section>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+       $(".btn-hamburger").on("click", function() {
+        $("nav ul").toggleClass("nav-active");
+        }) 
+    });
+</script>
+
+</body>
+</html>
