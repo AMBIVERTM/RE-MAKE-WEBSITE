@@ -1,5 +1,5 @@
 <?php
-$fname = $email = $subj = $msg = $nb = "";
+$fname = $email = $subject = $message = $phonenumber = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $fname = test_input($_POST["fname"]);
